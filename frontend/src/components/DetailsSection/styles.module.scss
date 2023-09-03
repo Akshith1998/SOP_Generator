@@ -1,0 +1,73 @@
+.container {
+  padding: 1% 10%;
+  @media screen and (max-width: 992px) {
+    padding: 1% 0;
+  }
+  .DetailsCont {
+    .errorMessage {
+      text-align: center;
+      font-size: 18px;
+      font-family: sans-serif;
+      color: red;
+      margin-top: 1em;
+    }
+    .confirm {
+      text-align: center;
+      font-size: 24px;
+      font-family: sans-serif;
+      padding: 1% 20%;
+      @media screen and (max-width: 992px) {
+        padding: 1% 10%;
+      }
+    }
+    .EducationDiv {
+      padding: 1% 20%;
+      font-size: 18px;
+      font-family: sans-serif;
+      font-weight: 600;
+      .select {
+        padding: 1%;
+        border-radius: 5px;
+        margin-left: 5%;
+        cursor: pointer;
+      }
+    }
+  }
+  .ButtonDiv {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1% 10%;
+    @media screen and (max-width: 992px) {
+      padding: 5% 10%;
+    }
+    .backButton {
+      padding: 1.5% 3%;
+      font-family: sans-serif;
+      font-size: 16px;
+      border-radius: 10px;
+      border-style: none;
+      background-color: #eb345f;
+      color: #fff;
+      cursor: pointer;
+      margin-right: 5%;
+      @media screen and (max-width: 992px) {
+        padding: 2% 4%;
+        font-size: 18px;
+      }
+    }
+    .nextButton {
+      padding: 1.5% 3%;
+      font-family: sans-serif;
+      font-size: 16px;
+      border-radius: 10px;
+      border-style: none;
+      background-color: #3459eb;
+      color: #fff;
+      cursor: pointer;
+      @media screen and (max-width: 992px) {
+        padding: 2% 4%;
+        font-size: 18px;
+      }
+    }
+  }
+}
